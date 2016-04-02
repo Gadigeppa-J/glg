@@ -4,6 +4,9 @@ import "fmt"
 
 func main() {
 
-	fmt.Printf("Hello, World\n")
+	for i:=1; i< 200; i++{
+		fmt.Printf("%q\n", i)
+	}
+
 
 }
